@@ -2,7 +2,7 @@
 Michael Wu
 
 
-## DESCRIPTIONS:
+## Work Summary:
 
 
 -Completed an A/B Test on a potential Udacity website interface change: add a free trial screener, to filter out students with less commitment to finishing courses, in order to improve retention rate
@@ -18,7 +18,7 @@ Michael Wu
 
 -"Final Project": Instructions & descriptions of final project
 
--"Final Project_pdf": Summary of project results
+-"Final Project Results": Summary of project results
 
 -"Excel Calculations":
 1. [Calculation of standard deviations, sample sizes needed](https://drive.google.com/file/d/10obHb4HIKd9ZEH41NjdLCU8MQAu560up/view?usp=sharing_)
