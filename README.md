@@ -48,7 +48,8 @@ Bonferonni Correction:
 Bonferonni correction works for controling Type One error regarding if any metric out of mutiple metrics are significant, while our experiment requires ALL evaluation metrics to be significant. Thus, Bonferonni correction does not apply here.
 
 Sample Size Needed:
-
+-From a certain practical significance level(d_min), beta, alpha, baseline conversion rate, we can calculate the sample size we need to reach a rejection/conclusion which has enough statistical power.
+-Then we can calculate the unit of analysis needed for each evaluation metrics, and divided by daily website cookie trafiic, to get the number of days of experiment needed to run the AB test.
 
 
 
