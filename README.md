@@ -35,10 +35,18 @@ Users are diverted by cookies or user-ids if enrolled, into control groups and e
 
 First we choose a few invariant metrics(number of cookies, number of clicks) to conduct sanity checks, to ensure there is no significant difference in data of control and experment groups from the beginning. And our 2 metrics all passed sanity checks(Probability of data in control groups lies within 95% Confidnce Interval, with 0.5 null assumption).
 
-Then we choose a few evaluation metrics(gross conversion, retention, net conversion), to evaluate if such website change is resulting statisitical significant changes and even practical significant changes. And 
-( Note: we are using analytical variance here, since unit of diversion(cookies) is larger in scope than unit of analysis(clicks, enrolments) )
+Then we choose a few evaluation metrics(gross conversion, retention, net conversion), to evaluate if such website change is resulting statisitical significant changes and even practical significant changes. And the result is that changes bewteen control and experment groups: not practically significant in metrics of retention or net conversion; practical significance in gross conversion, but negative changes. Thus, it is recommended not to launch this new feature of "asking about potential study time" on Udacity before checking out.  
 
-we conduct another type of check: population sizing metrics
+
+### Other Techinical Details
+Note: we are using analytical variance here, since unit of diversion(cookies) is larger in scope than unit of analysis(clicks, enrolments)
+
+Sign Tests:
+We conduct a sign test on day-by-day paired data on evaluation metrics, finding that only gross conversion metric is statistical significant. It shows in a more detailed daily data scope, only in gross conversion sees statistical significant changes, between control and experiment groups.
+
+Bonferroni Correction:
+
+
 
 
 
