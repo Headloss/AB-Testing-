@@ -44,7 +44,10 @@ Note: we are using analytical variance here, since unit of diversion(cookies) is
 Sign Tests:
 We conduct a sign test on day-by-day paired data on evaluation metrics, finding that only gross conversion metric is statistical significant. It shows in a more detailed daily data scope, only in gross conversion sees statistical significant changes, between control and experiment groups.
 
-Bonferroni Correction:
+Bonferonni Correction:
+Bonferonni correction works for controling Type One error regarding if any metric out of mutiple metrics are significant, while our experiment requires ALL evaluation metrics to be significant. Thus, Bonferonni correction does not apply here.
+
+Sample Size Needed:
 
 
 
