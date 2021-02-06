@@ -1,4 +1,5 @@
 # AB-Testing-
+Michael Wu
 
 
 ## DESCRIPTIONS:
@@ -26,13 +27,22 @@
 
 ## Project Summary:
 
-### Intro
+### Background
 Udacity, a online learning platform(MOOCs), is trying to test a website change that adds a question page "How long do you plan to spend in this course?" before letting users checking out and registering a certified course, in order to filter out less commited students, to increase the retention rate after registering. If the answer is larger than 5 hours per week, students will be able to check out as usual; Otherwise, students will be suggested to only take this course in a "No Certificate" way with no payment and coaching provided.
 
 ### AB Testing Process
-Users are diverted by user-ids into control groups and experiment groups.
+Users are diverted by cookies or user-ids if enrolled, into control groups and experiment groups.
 
-First we choose a few invariant metrics(number of cookies, number of clicks) to conduct A/A testing, 
+First we choose a few invariant metrics(number of cookies, number of clicks) to conduct sanity checks, to ensure there is no significant difference in data of control and experment groups from the beginning. And our 2 metrics all passed sanity checks(Probability of data in control groups lies within 95% Confidnce Interval, with 0.5 null assumption).
+
+Then we choose a few evaluation metrics(gross conversion, retention, net conversion), to evaluate if such website change is resulting statisitical significant changes and even practical significant changes. And 
+( Note: we are using analytical variance here, since unit of diversion(cookies) is larger in scope than unit of analysis(clicks, enrolments) )
+
+we conduct another type of check: population sizing metrics
+
+
+
+
 
 
 
